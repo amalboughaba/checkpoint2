@@ -1,0 +1,53 @@
+body{
+
+background-image: linear-gradient(219deg, red, black, black 90.71%);
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo{
+    float: left;
+    padding: 10;
+    size: 10px;
+}
+nav{
+    float: right;
+}
+nav ul {
+    margin-left: 10px;
+    padding-left: 20px;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 150px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold;
+}
+.navigation :hover{
+    color: red;
+}
+#view :hover {
+    color: brown;
+    text-decoration-line: underline;
+    color: blue;
+}
